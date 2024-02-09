@@ -22,7 +22,7 @@ public class Main {
             
             JsonArray sections = (JsonArray)jsonOriginal.get("section");
             System.out.println("Sections Found (JSON): " + sections.size());
-            
+                        
         }
         catch (Exception e) { e.printStackTrace(); }
             
